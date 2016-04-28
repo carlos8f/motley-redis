@@ -1,0 +1,25 @@
+{
+  "name": "motley-redis",
+  "version": "0.0.0",
+  "description": "Redis adapter for Motley",
+  "main": "_codemap",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/carlos8f/motley-redis.git"
+  },
+  "homepage": "https://s8f.org/motley.html",
+  "keywords": [
+    "app",
+    "framework",
+    "bacon",
+    "yeah"
+  ],
+  "author": "Carlos Rodriguez <carlos@s8f.org> (http://s8f.org/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/carlos8f/motley-redis/issues"
+  },
+  "dependencies": {
+    "redis": "^2.6.0-1"
+  }
+}
