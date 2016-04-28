@@ -9,4 +9,4 @@ module.exports = {
     password: null,
     key_prefix: 'motley'
   }
-};
+}

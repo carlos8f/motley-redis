@@ -20,6 +20,7 @@
     "url": "https://github.com/carlos8f/motley-redis/issues"
   },
   "dependencies": {
-    "redis": "^2.6.0-1"
+    "redis": "^2.6.0-1",
+    "sosa_redis": "^0.1.1"
   }
 }

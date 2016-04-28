@@ -6,4 +6,4 @@ module.exports = {
     require('./hooks/_codemap'),
     require('./vendor/_codemap')
   ]
-};
+}

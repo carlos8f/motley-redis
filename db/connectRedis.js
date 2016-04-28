@@ -4,5 +4,5 @@ module.exports = function container (get, set) {
     var client = get('vendor.redis').createClient(options);
     set('@db.redis.client', client);
     client.once('ready', cb);
-  };
-};
+  }
+}
