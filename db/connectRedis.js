@@ -4,6 +4,10 @@ module.exports = function container (get, set) {
     if (!options.password) delete options.password;
     var client = get('vendor.redis').createClient(options);
     set('@db.redis.client', client);
-    client.once('ready', cb);
+    client.once('ready', function () {
+      delete options.password
+      console.log('connected to redis at ', options)
+      cb()
+    })
   }
 }
