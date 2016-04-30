@@ -5,7 +5,7 @@ module.exports = function container (get, set) {
         client: get('db.redis.client'),
         prefix: get('conf.db.redis').key_prefix
       })(name, options);
-      set('db.' + name, coll);
+      set('@db.' + name, coll);
       setImmediate(cb);
     }
   }

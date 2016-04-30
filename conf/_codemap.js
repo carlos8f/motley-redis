@@ -8,5 +8,10 @@ module.exports = {
     db: 0,
     password: null,
     key_prefix: 'motley'
+  },
+  'middleware.session{}': {
+    save: {
+      ttl: 86400 * 7 * 2
+    }
   }
 }

@@ -9,10 +9,8 @@
   },
   "homepage": "https://s8f.org/motley.html",
   "keywords": [
-    "app",
-    "framework",
-    "bacon",
-    "yeah"
+    "redis",
+    "motley"
   ],
   "author": "Carlos Rodriguez <carlos@s8f.org> (http://s8f.org/)",
   "license": "MIT",
