@@ -4,6 +4,7 @@ module.exports = {
 
   'connectRedis': require('./connectRedis'),
   'createRedisCollection': require('./createRedisCollection'),
+  'closeRedis': require('./closeRedis'),
   '@createCollection': '#db.createRedisCollection',
 
   'redis.client': null
