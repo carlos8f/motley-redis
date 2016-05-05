@@ -1,6 +1,6 @@
 {
   "name": "motley-redis",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "Redis adapter for Motley",
   "main": "_codemap",
   "repository": {
